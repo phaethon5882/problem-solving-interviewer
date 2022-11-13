@@ -1,6 +1,7 @@
 {
   "src/**/*.ts": [
     "tsc-files",
-    "eslint --cache --fix"
+    "eslint --cache --fix",
+    "git add"
   ]
 }

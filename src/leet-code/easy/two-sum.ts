@@ -1,8 +1,6 @@
 function twoSum(nums: number[], target: number): number[] {
   const indices: number[] = [];
 
-  // key: nums[i]
-  // value: i
   const map = new Map<number, number>();
 
   for (let i = 0; i < nums.length; i++) {

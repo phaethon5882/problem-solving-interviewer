@@ -5,9 +5,10 @@
   "scripts": {
     "start": "nodemon src/index.ts",
     "build": "tsc",
-    "lint": "eslint src/**/*.{js,ts,json}",
-    "lint:fix": "eslint --fix src/**/*.{js,ts,json}",
-    "format": "prettier --write 'src/**/*.{js,ts,json}'",
+    "check-types": "tsc --noEmit",
+    "lint": "eslint src/**/*.{ts,json}",
+    "lint:fix": "eslint --fix src/**/*.{ts,json}",
+    "format": "prettier --write 'src/**/*.{ts,json}'",
     "prepare": "husky install"
   },
   "devDependencies": {

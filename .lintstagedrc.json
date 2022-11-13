@@ -1,3 +1,6 @@
 {
-  "src/**/*.ts": ["yarn lint:fix", "tsc-files --noEmit"]
+  "src/**/*.ts": [
+    "tsc-files",
+    "eslint --cache --fix"
+  ]
 }
